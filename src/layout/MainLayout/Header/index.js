@@ -1,15 +1,13 @@
-import PropTypes from 'prop-types';
-
-// material-ui
-import { useTheme } from '@mui/material/styles';
 import { AppBar, IconButton, Toolbar, useMediaQuery } from '@mui/material';
+// assets
+import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
 
 // project import
 import AppBarStyled from './AppBarStyled';
 import HeaderContent from './HeaderContent';
-
-// assets
-import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
+import PropTypes from 'prop-types';
+// material-ui
+import { useTheme } from '@mui/material/styles';
 
 // ==============================|| MAIN LAYOUT - HEADER ||============================== //
 
